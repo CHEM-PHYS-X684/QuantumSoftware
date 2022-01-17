@@ -19,7 +19,7 @@ Online Materials hosted on GitHub, specified by the instructor.  GitHub is a clo
 
 |Assignment|Percent of grade|
 |---|---|
-|Homework | 80% |
+|Assignments | 80% |
 |Quizzes | 10% | 
 |Presentation | 10%|
 
