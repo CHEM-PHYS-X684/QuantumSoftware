@@ -10,10 +10,9 @@ This class will give you hands on experience developing software which executes 
 | **Time**|  11:00am - 12:15pm |
 
 **Topic List**:
-- Set up
+- MolSSI Python Package workshop
 - Linear Algebra Review
 - Quantum Representations
-- MolSSI Python Package workshop
 - Intro to Qiskit
 - Module 1: Quantum Teleportation
 - Module 2: Deutsch-Jozsa Algorithm
