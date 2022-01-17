@@ -10,7 +10,7 @@ This class will give you hands on experience developing software which executes 
 |---|---|
 |**Instructor**| Nick Mayhall (nmayhall@vt.edu) |
 | **Location**| Pamplin Hall 3028 |
-| **Time**|  11:00am - 12:15pm |
+| **Time**|  11:00am - 12:15pm, T/Th |
 
 ## Materials
 Online Materials hosted on GitHub, specified by the instructor.  GitHub is a cloud-based resource that hosts code modules, documentation, and other items to which the instructor will provide a curated, tailored set of links and where they will maintain their own projects.
