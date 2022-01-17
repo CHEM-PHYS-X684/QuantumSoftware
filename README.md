@@ -29,6 +29,8 @@ Quizzes may either be announced or unannounced. There will not be any major test
 ## Topic List: 
 
 These topics are *very* tentative, and are subject to change.
+- Python Basics
+  - Syntax: [link](https://education.molssi.org/python_scripting_cms/01-introduction/index.html)
 - MolSSI Python Package workshop: [link](https://education.molssi.org/python-package-best-practices/)
 - Linear Algebra Review: [link](https://qiskit.org/textbook/ch-appendix/linear_algebra.html)
 - Qiskit Setup: [link](https://learn.qiskit.org/course/ch-prerequisites/environment-setup-guide-to-work-with-qiskit-textbook)
