@@ -35,4 +35,4 @@ These topics are *very* tentative, and are subject to change.
 - Module: Classical Gates [link](https://learn.qiskit.org/course/ch-labs/lab-1-quantum-circuits) 
 - Module: Quantum Teleportation: [link](https://learn.qiskit.org/course/ch-algorithms/quantum-teleportation)
 - Module: Deutsch-Jozsa Algorithm: [link](https://learn.qiskit.org/course/ch-algorithms/deutsch-jozsa-algorithm)
-- Module: VQE
+- Module: VQE: [link](https://learn.qiskit.org/course/ch-applications/simulating-molecules-using-vqe)
