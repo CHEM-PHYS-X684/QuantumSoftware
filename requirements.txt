@@ -1,0 +1,10 @@
+numpy>=1.22.0
+scipy>=1.7.3
+qiskit>=0.34.1
+qiskit-nature>=0.3.0
+pyscf>=2.0.1
+qiskit-nature[pyscf]
+jupyterlab>=3.2.6
+matplotlib>=3.5.1
+pylatexenc>=2.10
+ipywidgets>=7.6.5
