@@ -26,11 +26,14 @@
 21. `touch` create a file. More precisely, update the modification time of a file, or create it if it doesn't exist.
 22. `ssh-keygen` generate a new ssh key for passwordless login on remote servers.
 23. `wget` download a file from the interwebz.
+24. `top`, `htop`, `ps -eax` display process information.
 
 ### And now for something a little different.
 1. `lolcat` pipe a command into `lolcat` to make the output colorful. Some commands are broken for this.
 2. `cowsay` similar to `lolcat`, make a cow say the output.
-3. `toilet` make the output in big ASCII letters.
+3. `toilet` make the output in big ASCII letters. Try mixing these three together to get some interesting results.
 4. `sl` make a train. A punishment to teach `ls`.
 5. `ddate` get the day in a fictional calendar. 
 6. `fortune` get a random quote.
+7. `neofetch` display system information with a cool logo. Looks nicer than `cat /proc/cpuinfo`.
+8. `cmatrix` make it rain digital rain.
