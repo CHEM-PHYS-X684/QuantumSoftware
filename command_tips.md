@@ -21,4 +21,16 @@
 16. `cmd1 | cmd2` take the output of `cmd1` and put it in `cmd2`. Called piping.
 17. `cmd > file` take the output of `cmd` and put it in a file. This replaces everything in the file. `cmd >> file` appends instead of overwriting. 
 18. `cmd1 && cmd2` and `cmd1 || cmd2` Logical operations. Do `cmd1` and `cmd2`, or `cmd1` or `cmd2`.
+19. `chown` take ownership of a file. Useful if you download something as root.
+20. `chmod` make a file executable, among other uses.
+21. `touch` create a file. More precisely, update the modification time of a file, or create it if it doesn't exist.
+22. `ssh-keygen` generate a new ssh key for passwordless login on remote servers.
+23. `wget` download a file from the interwebz.
 
+### And now for something a little different.
+1. `lolcat` pipe a command into `lolcat` to make the output colorful. Some commands are broken for this.
+2. `cowsay` similar to `lolcat`, make a cow say the output.
+3. `toilet` make the output in big ASCII letters.
+4. `sl` make a train. A punishment to teach `ls`.
+5. `ddate` get the day in a fictional calendar. 
+6. `fortune` get a random quote.
