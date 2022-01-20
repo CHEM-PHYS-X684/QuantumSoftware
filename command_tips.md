@@ -37,3 +37,11 @@
 6. `fortune` get a random quote.
 7. `neofetch` display system information with a cool logo. Looks nicer than `cat /proc/cpuinfo`.
 8. `cmatrix` make it rain digital rain.
+
+# Variables
+1. `$PATH` the standard path the system uses to look for executables, libraries,, etc. 
+2. `$HOME` your home directory.
+3. `$PYTHONPATH` like path, but for python.
+4. `$PWD` the current working directory.
+5. `$USER` the current user name.
+
