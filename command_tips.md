@@ -27,6 +27,7 @@
 22. `ssh-keygen` generate a new ssh key for passwordless login on remote servers.
 23. `wget` download a file from the interwebz.
 24. `top`, `htop`, `ps -eax` display process information.
+25. `which` gives the path to a command.
 
 ### And now for something a little different.
 1. `lolcat` pipe a command into `lolcat` to make the output colorful. Some commands are broken for this.
