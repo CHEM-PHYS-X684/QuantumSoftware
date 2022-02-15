@@ -1,10 +1,15 @@
 # good things to know
 1. `ls`: list the contents of a directory
 2. `cd`: "change directory"
- - `cd .` go to the current directory.
- - `cd ..` go up a directory
- - `cd ~` go home.
- - `cd` without a directory, go home.
+1. `cd -`: go back and forth between upper directory and current
+1. `cd ..`: go one directory up
+3. `pwd`: "print working directory" (show which directory you're in)
+1. `mkdir $name`: create directory $name
+1. `mv $dir $location`: move $dir to $location 
+1. `cd .` go to the current directory.
+1. `cd ..` go up a directory
+1. `cd ~` go home.
+1. `cd` without a directory, go home.
 3. `vi`, `nano` text editors. `:q` quits vim.
 4. `man` the manual.
 5. `sudo` do as super-user. USE AT OWN RISK.
