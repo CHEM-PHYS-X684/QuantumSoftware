@@ -43,4 +43,4 @@ $$\begin{align}
 
 
 - [Previous](<Postulate 5.md>)
-- [Up](Postulates/README.md)
+- [Up](/README.md)

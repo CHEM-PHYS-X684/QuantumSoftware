@@ -1,4 +1,4 @@
-# good things to know
+## Command-line Tips
 1. `ls`: list the contents of a directory
 2. `cd`: "change directory"
 1. `cd -`: go back and forth between upper directory and current
@@ -43,3 +43,17 @@
 6. `fortune` get a random quote.
 7. `neofetch` display system information with a cool logo. Looks nicer than `cat /proc/cpuinfo`.
 8. `cmatrix` make it rain digital rain.
+# Get linux commands on windows
+
+WSL. Windows Subsystem for Linux (WSL) lets developers run a GNU/Linux environment -- including most command-line tools, utilities, and applications - 
+	directly on Windows, unmodified, without the overhead of a traditional virtual machine or dual-boot setup. 
+	This will give us access to more modern commandline interfaces on windows machines. 
+
+	https://docs.microsoft.com/en-us/windows/wsl/install
+
+# For BASH users. 
+If the anaconda install overwrites your bash profile, add a source command to end of `~/.bashrc`
+	
+	if [ -f ~/.profile ]; then
+    		source ~/.profile
+	fi
