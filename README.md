@@ -1,44 +1,115 @@
-# Syllabus: Quantum Software 1
+# CHEM/PHYS 3684
 
-Quantum information science and engineering (QISE) is an important and growing field. The subject is mature enough that quantum computing courses and degree programs are becoming common in physics and engineering departments in universities around the world. With the increasing number of QISE career opportunities in the US and beyond, it is important that students develop the practical skills necessary to participate in these new technologies. The set of necessary skills extends beyond fluency in a programming language and algorithm design, and now involves proficiency in a number of toolchain and workflow patterns. This course will prepare students not only for research in this field, but also for positions in government labs and industry, given that many of the leading companies and labs (Google, IBM, Lockheed Martin, Northrop Grumman, Army Research Laboratory, National Institute of Standards and Technology, etc.) have active research programs related to QISE.
-<!-- This course will be a required course in a new QISE minor under development in PHYS.  Other students having met the prerequisites may use it an elective.
-This course is offered at the 3000 level to ensure that the students have experience and appreciation of the QISE domains to which the programming skills can be applied, acquired in previous courses at the 2000 level. The prerequisites are MATH 2114 (Linear Algebra) and PHYS 2XX4 (Hello Quantum World!). The purpose of these prerequisites is to ensure the students have an introduction to the concepts (Hello Quantum World!) and to the mathematical language used to discuss problems (Linear Algebra), which are necessary for the proposed course.
- -->
-This class will give you hands on experience developing software which executes **quantum** algorithms. 
+### Grading
+```mermaid
+pie showdata
+	"Engagement" : 20
+	"Quizes" : 20
+	"Assignments":  30
+	"Software" : 30
+```
 
-|||
-|---|---|
-|**Instructor**| Nick Mayhall (nmayhall@vt.edu) |
-| **Location**| Pamplin Hall 3028 |
-| **Time**|  11:00am - 12:15pm, T/Th |
+### Tentative Schedule
+1. [Computer setup](https://chem-phys-x684.github.io/python-package-best-practices/setup.html)
+	- [Instructions for Windows](https://chem-phys-x684.github.io/python-package-best-practices/setup.html#WSL-install)
+	- [Shell tutorial](https://swcarpentry.github.io/shell-novice/)
+	- **Assignment**: Setup
+1. Python
+	- [MolSSI Tutorial](https://education.molssi.org/python_scripting_cms/01-introduction/index.html)
+	- [w3schools Tutorial](https://www.w3schools.com/python/default.asp)
+	- Concepts
+		- [Variables and Functions](https://www.w3schools.com/python/python_variables.asp)
+			- [Duck Typing and Type hinting](https://chem-phys-x684.github.io/python-package-best-practices/06-type-hinting/index.html)
+		- [Classes](https://www.w3schools.com/python/python_classes.asp)
+			- [Inheritance/Polymorphism](https://www.w3schools.com/python/python_inheritance.asp)
+	- **Assignment**: 
+		- write a Class that implements a bit representation
+		- a method that returns number of `on` bits
+		- a method that returns the associated integer
+		- a method that returns an associated float
+3. [Linear Algebra review](<./Linear Algebra.md>) (1 lecture, then quiz next day)
+	- **Quiz**: Math review
+	- Start Jupyter notebook with math example
+4. [Quantum Postulates](Postulates/README.md)  
+	- TDSE solutions via trotterization
+	- **Quiz**: Postulates
+5. Quantum Computing
+	- Concepts (Qubits, etc)
+	- Basic Gates
+6. [Classical Optimization](CSP/README.md)
+	- Constraint Satisfaction Problems (CSP)
+		- Max-Cut
+			- Derive the mapping
+		- Traveling Salesman
+		- [Good overview connecting to Hamiltonians](https://arxiv.org/pdf/1501.07030.pdf)
+	- Ising Model
+		- Pauli Operators
+	- Jupyter
+		- Code Ground state
+7. MolSSI
+	- Turn Montecarlo into package
+		- MonteCarlo
+8. Ising $\rightarrow$ Heisenberg 
+9. Adiabatic State Preparation
+	- adiabatic principle
+	- adiabatic principle for Ising
 
-## Materials
-Online Materials hosted on GitHub, specified by the instructor.  GitHub is a cloud-based resource that hosts code modules, documentation, and other items to which the instructor will provide a curated, tailored set of links and where they will maintain their own projects.
 
-## Grade Policy
+---
 
-|Assignment|Percent of grade|
-|---|---|
-|Assignments | 80% |
-|Quizzes | 10% | 
-|Presentation | 10%|
+# CHEM/PHYS 4684 
 
-Quizzes may either be announced or unannounced. There will not be any major tests in this course.
+### Grading
+```mermaid
+pie showdata
+	"Mentoring/Engagement" : 20
+	"Project Proposal" : 20
+	"Software Package":  40
+	"Project Presentation" : 20
+```
+
+### Tentative Schedule
+- points:
+	- Collaboration is ok, but must be properly credited. I can look at the git commit history, but that's not enough - any collaboration must also be described in the presentation
+
+### Proposal Rubric
+Develop and write a 2-3 page proposal(11pt font, single spaced) proposal.
+
+1. **Motivation:**  (30pts) 
+   Why should I care about the problem you are focusing on? 
+2. **Limits of current approaches or understandings:** (20pts) 
+   Are there limits to the current status?
+3. **Project Plan:** (30pts) 
+   Give a detailed plan of how you will carry out the project. How will you determine if your project is successful?
+4. **Timeline:** (10pts) 
+   How long do you expect each step to take?
+5. **References:** (10pts) 
+   Make sure you include a proper bibliography to support any claims you make
+
+### Software Rubric
+Create a Python GitHub package that executes what was proposed above
+1. **Documentation:** (20pts)
+2. **Unit Testing:** (20pts)
+3. **Organization:** (20pts)
+4. **Examples:** (20pts)
+5. **Performance:** (20pts)
 
 
-## Topic List: 
+### Presentation Rubric
+Prepare and deliver a presentation on your project
+1. **Motivation:** (20pts)
+1. **Correctness:** (30pts)
+2. **Clarity of Materials:** (20pts)
+2. **Clarity of Narrative:** (30pts)
 
-These topics are *very* tentative, and are subject to change.
-- MolSSI Python Package workshop: [link](https://education.molssi.org/python-package-best-practices/)
-- Ising Problem
-    1. define functions and classes
-        - Python Basics: [link](https://education.molssi.org/python_scripting_cms/01-introduction/index.html)
-    3. compute expectation values, and plot as function of T
-    4. convert notebook into python package
-    5. add montecarlo to package
-- Linear Algebra Review: [link](https://qiskit.org/textbook/ch-appendix/linear_algebra.html)
-- Qiskit Setup: [link](https://learn.qiskit.org/course/ch-prerequisites/environment-setup-guide-to-work-with-qiskit-textbook)
-- Module: Classical Gates [link](https://learn.qiskit.org/course/ch-labs/lab-1-quantum-circuits) 
-- Module: Quantum Teleportation: [link](https://learn.qiskit.org/course/ch-algorithms/quantum-teleportation)
-- Module: Deutsch-Jozsa Algorithm: [link](https://learn.qiskit.org/course/ch-algorithms/deutsch-jozsa-algorithm)
-- Module: VQE: [link](https://learn.qiskit.org/course/ch-applications/simulating-molecules-using-vqe)
+
+# Academic Honor System
+The Undergraduate Honor Code pledge that each member of the university community agrees to abide by states:
+
+>As a Hokie, I will conduct myself with honor and integrity at all times.  I will not lie, cheat, or steal, nor will I accept the actions of those who do.
+
+Students enrolled in this course are responsible for abiding by the Honor Code. A student who has doubts about how the Honor Code applies to any assignment is responsible for obtaining specific guidance from the course instructor before submitting the assignment for evaluation. Ignorance of the rules does not exclude any member of the University community from the requirements and expectations of the Honor Code. 
+
+Academic integrity expectations are the same for online classes as they are for in person classes.  We strongly encourage all instructors to discuss the use of technology, and specifically discuss areas we know are problematic temptations for students such as Chegg, CourseHero, and GroupMe to discourage students from using them.  When the semester starts is an appropriate time in addition to providing a kind reminder before exams and assignments about expectations related to these sites.  Please make your students aware that we are able to effectively investigate these incidents.  If you have any questions about these sites or discussing them with your students, please do not hesitate to call our office.  All university policies and procedures apply in any Virginia Tech academic environment, and all students are expected to follow them.
+
+For additional information about the Honor Code, please visit: https://www.honorsystem.vt.edu/
