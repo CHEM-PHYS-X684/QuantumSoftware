@@ -22,12 +22,8 @@ pie showdata
 			- [Duck Typing and Type hinting](https://chem-phys-x684.github.io/python-package-best-practices/06-type-hinting/index.html)
 		- [Classes](https://www.w3schools.com/python/python_classes.asp)
 			- [Inheritance/Polymorphism](https://www.w3schools.com/python/python_inheritance.asp)
-	- **Assignment**: 
-		- write a Class that implements a bit representation
-		- a method that returns number of `on` bits
-		- a method that returns the associated integer
-		- a method that returns an associated float
-3. [Linear Algebra review](<./Linear Algebra.md>) (1 lecture, then quiz next day)
+	- **Assignment**: Python 
+3. [Linear Algebra review](<./Linear Algebra.md>) 
 	- **Quiz**: Math review
 	- Start Jupyter notebook with math example
 4. [Quantum Postulates](Postulates/README.md)  
@@ -36,19 +32,18 @@ pie showdata
 5. Quantum Computing
 	- Concepts (Qubits, etc)
 	- Basic Gates
+	- Qiskit
 6. [Classical Optimization](CSP/README.md)
 	- Constraint Satisfaction Problems (CSP)
 		- Max-Cut
-			- Derive the mapping
 		- Traveling Salesman
 		- [Good overview connecting to Hamiltonians](https://arxiv.org/pdf/1501.07030.pdf)
 	- Ising Model
 		- Pauli Operators
-	- Jupyter
-		- Code Ground state
-7. MolSSI
-	- Turn Montecarlo into package
-		- MonteCarlo
+		- Code Ground state in Notebook
+7. MolSSI Materials
+	- Turn Jupyter functions into [package](https://chem-phys-x684.github.io/python-package-best-practices/01-package-setup/index.html)
+	- Code MonteCarlo
 8. Ising $\rightarrow$ Heisenberg 
 9. Adiabatic State Preparation
 	- adiabatic principle
