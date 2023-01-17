@@ -51,21 +51,23 @@ This is referred to as the [Cauchy-Schwartz Inequality](https://en.wikipedia.org
 
 $$
 \vec{v} = 
-\begin{pmatrix}
+\left(
+\begin{array}{c}
 v_x \\ v_y \\ v_z
-\end{pmatrix}
+\end{array}
+\right)
 $$
 
 in this notation we can also define a dot product as:
 
 $$
 \vec{v}\cdot\vec{w} = \vec{v}^\dagger\vec{w} = 
-\begin{pmatrix}
+\left(\begin{array}{c}
 v_x & v_y & v_z
-\end{pmatrix}
-\begin{pmatrix}
+\end{array}\right)
+\left(\begin{array}{c}
 w_x \\ w_y \\ w_z
-\end{pmatrix}
+\end{array}\right)
 $$
 
 where the $\dagger$ indicates an adjoint, or [transpose](https://en.wikipedia.org/wiki/Transpose) when the vector is real. 
