@@ -110,8 +110,6 @@ $$
 
 [^cc]:	Here (and throughout this course) we will assume that the basis vectors form an orthonormal set. This simply means that the inner product of a vector with itself $\braket{v_i\vert v_i} = 1$ and the inner product with any other vector is zero, $\braket{v_i\vert v_j} = 0$, when $i\neq j$. 
 
-If a matrix has the property, $\hat{A}^\dagger = \hat{A}$, it is called a [Hermitian matrix](https://en.wikipedia.org/wiki/Hermitian_matrix). 
-
 
 ## Matrices
 
@@ -167,6 +165,18 @@ c_{11} & c_{12} \\
 c_{21} & c_{22}
 \end{pmatrix}
 $$
+
+If a matrix has the property, $\hat{A}^\dagger = \hat{A}$, it is called a . 
+
+A few types of matrices:
+
+| Definition | Name | Common Context | 
+|---|---| --- |
+|$\hat{A} = \hat{A}^\dagger$ | [Hermitian](https://en.wikipedia.org/wiki/Hermitian_matrix) | Physical Observables | |
+|$\hat{A}^\dagger = \hat{A}^{-1}$ | [Unitary](https://en.wikipedia.org/wiki/Unitary_matrix) | Time Evolution |
+|$\hat{A}\hat{A} = \hat{A}$ | [Idempotent](https://en.wikipedia.org/wiki/Idempotent_matrix) | Projection |
+|$\hat{A}\hat{A} = \hat{I}$ | [Involutory](https://en.wikipedia.org/wiki/Involutory_matrix) | Pauli's/Angular Momentum|
+
 
 ## Resolution of the identity
 Above, we saw that while the inner product, $\braket{v\vert w}$, is a scalar, the outer product, $\ket{v}\bra{w}$ is a matrix. Let's take one of our orthonormal basis vectors ($\ket{v_i}$) and inspect the outer product with itself:
