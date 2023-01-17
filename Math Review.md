@@ -228,6 +228,8 @@ we would say that $\ket{v}$ is an eigenvector of $\hat{A}$ with eigenvalue, $a_v
 
 For hermitian matrices, we can always find a full set of eigenvectors which is equal to the dimension of the space. Resolving the identity into this basis yields a matrix which is diagonal, and thus this process is called `diagonalizing` the matrix. 
 
+Wikipedia has a nice collection of useful facts concerning Eigenvalues/vectors: [here](https://en.wikipedia.org/wiki/Eigendecomposition_of_a_matrix#Useful_facts).
+
 ## Matrix exponential 
 Assume $\hat{A}$ is a Hermitian matrix (this isn't necessary but it's helpful here). We can define the matrix exponential with standard [Taylor Series](https://en.wikipedia.org/wiki/Taylor_series#Exponential_function):
 
