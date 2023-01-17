@@ -110,6 +110,9 @@ $$
 
 [^cc]:	Here (and throughout this course) we will assume that the basis vectors form an orthonormal set. This simply means that the inner product of a vector with itself $\braket{v_i\vert v_i} = 1$ and the inner product with any other vector is zero, $\braket{v_i\vert v_j} = 0$, when $i\neq j$. 
 
+If a matrix has the property, $\hat{A}^\dagger = \hat{A}$, it is called a [Hermitian matrix](https://en.wikipedia.org/wiki/Hermitian_matrix). 
+
+
 ## Matrices
 
 Matrices, as you probably remember from linear algebra, are 2D grids of numbers. Whereas vectors can be thought of as *discretized functions*, matrices can be viewed as *discretized operators*. This becomes more evident after considering the multiplication of a vector by a matrix:
@@ -204,6 +207,17 @@ We can use the resolution of the identity to change from one basis to another.
 
 ## Eigensystems
 - [Wikipedia](https://en.wikipedia.org/wiki/Eigendecomposition_of_a_matrix)
+
+Although any operator, $\hat{A}$,  can be multiplied against a vector, $\ket{v}$ to yield a new vector, $\ket{w}, often times one encounters the situation where the transformation of a vector by a matrix is particularly simple in that it only "scales" the vector by a number. When this happens, we refer to the vector as an `eigenvector` of the operator, and the value by which the result is scaled is called the `eigenvalue`. In the following,
+
+$$
+\hat{A}\ket{v} = a_v\ket{v}
+$$
+
+we would say that $\ket{v}$ is an eigenvector of $\hat{A}$ with eigenvalue, $a_v$. 
+
+For hermitian matrices, we can always find a full set of eigenvectors which is equal to the dimension of the space. Resolving the identity into this basis yields a matrix which is diagonal, and thus this process is called `diagonalizing` the matrix. 
+
 ## Matrix exponential 
 Assume $\hat{A}$ is a Hermitian matrix (this isn't necessary but it's helpful here). We can define the matrix exponential with standard [Taylor Series](https://en.wikipedia.org/wiki/Taylor_series#Exponential_function):
 
