@@ -110,15 +110,55 @@ So whereas the `inner product` gives us a scalar, the `outer product` gives us a
 Matrices, as you probably remember from linear algebra, are 2D grids of numbers. Whereas vectors can be thought of as *discretized functions*, matrices can be viewed as *discretized operators*. This becomes more evident after considering the multiplication of a vector by a matrix:
 
 $$
-\left(
-\begin{array}
+\begin{pmatrix}
 a_{11} & a_{12} \\
 a_{21} & a_{22}
-\end{array}
-\right)
+\end{pmatrix}
+\begin{pmatrix}
+v_{1}  \\
+v_{2}  
+\end{pmatrix}
+=
+\begin{pmatrix}
+a_{11}v_{1} + a_{12}v_{2}  \\
+a_{21}v_{1} + a_{22}v_{2}  \\
+\end{pmatrix}
+=
+\begin{pmatrix}
+w_{1}  \\
+w_{2}  \\
+\end{pmatrix}.
 $$
 
-## Dirac Notation
+As we see, the application of a matrix to a vector returns a new vector. In other words, a matrix transforms a vector into vector, just as an operator (e.g., a derivative) transforms a function into another function.
+
+
+When we multiply two matrices together, we get:
+
+$$
+\begin{pmatrix}
+a_{11} & a_{12} \\
+a_{21} & a_{22}
+\end{pmatrix}
+\begin{pmatrix}
+b_{11} & b_{12} \\
+b_{21} & b_{22}
+\end{pmatrix}
+=
+\left(
+\begin{array}{c|c}
+a_{11}b_{11} + a_{12}b_{21} & 
+a_{11}b_{12} + a_{12}b_{22} \\\hline
+a_{21}b_{11} + a_{22}b_{21} & 
+a_{21}b_{12} + a_{22}b_{22} \\
+\end{array}
+\right)
+=
+\begin{pmatrix}
+c_{11} & c_{12} \\
+c_{21} & c_{22}
+\end{pmatrix}
+$$
 
 ## Resolution of the identity
 ## Eigensystems
