@@ -111,18 +111,21 @@ Matrices, as you probably remember from linear algebra, are 2D grids of numbers.
 
 $$
 \begin{pmatrix}
-a_{11} & a_{12} \\%
-a_{21} & a_{22}%
+a_{11} & a_{12} \\
+a_{21} & a_{22}
 \end{pmatrix}
 \begin{pmatrix}
-v_{1}  \\%
-v_{2}  %
+v_{1}  \\
+v_{2}  
 \end{pmatrix}
 =
 \begin{pmatrix}
-a_{11}v_{1} + a_{12}v_{2}  \\%
-a_{21}v_{1} + a_{22}v_{2} %
+a_{11}v_{1} + a_{12}v_{2}  \\
+a_{21}v_{1} + a_{22}v_{2} 
 \end{pmatrix}
+$$
+
+$$
 =
 \begin{pmatrix}
 w_{1}  \\
