@@ -1,7 +1,10 @@
 # CHEM/PHYS 3684
-**Room:** Robeson 116
-**Time:** 11am-12:15pm
-**Days:** Tuesday/Thursday
+
+| | |
+| --- | --- |
+| **Room:** |  Robeson 116 |
+| **Time:** | 11am-12:15pm |
+| **Days:** | Tuesday/Thursday |
 
 ### Grading
 ```mermaid
@@ -57,9 +60,11 @@ pie showdata
 
 # CHEM/PHYS 4684 
 
-**Room:** Robeson 116
-**Time:** 11am-12:15pm
-**Days:** Tuesday/Thursday
+| | |
+| --- | --- |
+| **Room:** |  Robeson 116 |
+| **Time:** | 11am-12:15pm |
+| **Days:** | Tuesday/Thursday |
 
 
 ### Grading
