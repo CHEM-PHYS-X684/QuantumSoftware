@@ -1,3 +1,14 @@
+## Calculus
+
+- [Derivative](https://en.wikipedia.org/wiki/Derivative)
+- [Integral](https://en.wikipedia.org/wiki/Integral)
+- [Limits](https://en.wikipedia.org/wiki/Limit_(mathematics))
+- [Taylor Series](https://en.wikipedia.org/wiki/Taylor_series)
+  
+  The general definition of a Taylor series of a function of $x$, is given as:
+	$\displaystyle f(a) = \sum_{n=0}^\infty f^{(n)}(a)\frac{\left(x-a\right)^n}{n!},$
+	which results in a polynomial in $x$, where the $n^{th}$ order  coefficient of the polynomial is the $n^{th}$ order derivative. 
+
 ## Vectors
 
 ### Three Dimensions
@@ -68,6 +79,8 @@ $$
 \ket{\sigma} = \sum_{i=1}^Nc_i\ket{v_i}.
 $$
 
+A vector can be thought of as a discretized function. For instance, the $i^{th}$ component of a vector returns a number. Similarly, if we pass $i$ to the function $f(x)$ we also get a number back. 
+
 In this form, the dot product (now consistently referred to as the inner product) is written as:[^cc]
 
 $$\braket{v\vert w} = \left(\ket{v}\right)^\dagger\cdot\ket{w} = \sum_i v_i^*w_i
@@ -91,6 +104,18 @@ So whereas the `inner product` gives us a scalar, the `outer product` gives us a
 [^cc]:	Here (and throughout this course) we will assume that the basis vectors form an orthonormal set. This simply means that the inner product of a vector with itself $\braket{v_i\vert v_i} = 1$ and the inner product with any other vector is zero, $\braket{v_i\vert v_j} = 0$, when $i\neq j$. 
 
 ## Matrices
+
+Matrices, as you probably remember from linear algebra, are 2D grids of numbers. Whereas vectors can be thought of as *discretized functions*, matrices can be viewed as *discretized operators*. This becomes more evident after considering the multiplication of a vector by a matrix:
+
+$$
+\left(
+\begin{array}
+a_{11} & a_{12} \\
+a_{21} & a_{22}
+\end{array}
+\right)
+$$
+
 ## Dirac Notation
 
 ## Resolution of the identity
