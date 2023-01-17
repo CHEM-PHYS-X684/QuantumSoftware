@@ -110,21 +110,21 @@ So whereas the `inner product` gives us a scalar, the `outer product` gives us a
 Matrices, as you probably remember from linear algebra, are 2D grids of numbers. Whereas vectors can be thought of as *discretized functions*, matrices can be viewed as *discretized operators*. This becomes more evident after considering the multiplication of a vector by a matrix:
 
 $$
-\begin{pmatrix}
+\left(\begin{array}{cc}
 a_{11} & a_{12} \\
 a_{21} & a_{22}
-\end{pmatrix}\begin{pmatrix}
+\end{array} 
+\right)
+\left(\begin{array}{c}
 v_{1}  \\
 v_{2}  
-\end{pmatrix}
+\end{array} 
+\right)
 =
 \begin{pmatrix}
 a_{11}v_{1} + a_{12}v_{2}  \\
 a_{21}v_{1} + a_{22}v_{2} 
 \end{pmatrix}
-$$
-
-$$
 =
 \begin{pmatrix}
 w_{1}  \\
