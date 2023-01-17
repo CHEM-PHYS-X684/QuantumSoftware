@@ -45,15 +45,50 @@ v_x \\ v_y \\ v_z
 \end{pmatrix}
 $$
 
+in this notation we can also define a dot product as:
+
+$$
+\vec{v}\cdot\vec{w} = \vec{v}^\dagger\vec{w} = 
+\begin{pmatrix}
+v_x & v_y & v_z
+\end{pmatrix}
+\begin{pmatrix}
+w_x \\ w_y \\ w_z
+\end{pmatrix}
+$$
+
+where the $\dagger$ indicates an adjoint, or [transpose](https://en.wikipedia.org/wiki/Transpose) when the vector is real. 
+
+
 ### N-dimensions
 We can generalize this to an arbitrary number of dimensions. When we do so, we usually drop the $\rightarrow$ decoration, in favor of Dirac's [Braket notation](https://en.wikipedia.org/wiki/Bra%E2%80%93ket_notation), where vectors are denoted as a label inside of a "ket", $\vec{v}\rightarrow\ket{v}$.  
 Using this notation, we can take any given basis $\{\ket{v_1}, \ket{v_2}, \dots, \ket{v_i}\}$ of dimension $N$, and write an arbitrary function directly in terms of it's coefficients:
+ 
 $$
 \ket{\sigma} = \sum_{i=1}^Nc_i\ket{v_i}.
 $$
 
-In this form, 
+In this form, the dot product (now consistently referred to as the inner product) is written as:[^cc]
 
+$$\braket{v\vert w} = \left(\ket{v}\right)^\dagger\cdot\ket{w} = \sum_i v_i^*w_i
+$$
+
+Notice that the inner product returns a `scalar`, or a simple number. Because of this, the inner product is also referred to as the scalar product. 
+However, as mentioned above, there are two ways to multiply two vectors. In addition to the inner product discussed above, we also can define an [outer product](https://en.wikipedia.org/wiki/Outer_product). Assume $\ket{v}$ is $N$-dimensional, and $\ket{w}$ is $M$-dimensional (note, that $N=M$ is certainly possible and allowed), then:
+
+$$
+\ket{v}\otimes\ket{w} = \begin{pmatrix}
+v_1w_1 & v_1w_2 & v_1w_3 & \cdots & v_1w_M \\
+v_2w_1 & v_2w_2 & v_2w_3 & \cdots & v_2w_M \\
+v_3w_1 & v_3w_2 & v_3w_3 & \cdots & v_3w_M \\
+\vdots & \vdots & \vdots & \ddots & \vdots \\ 
+v_Nw_1 & v_Nw_2 & v_Nw_3 & \cdots & v_Nw_M \\
+\end{pmatrix}.
+$$
+
+So whereas the `inner product` gives us a scalar, the `outer product` gives us a [matrix](https://en.wikipedia.org/wiki/Matrix_(mathematics))!
+
+[^cc]:	Here (and throughout this course) we will assume that the basis vectors form an orthonormal set. This simply means that the inner product of a vector with itself $\braket{v_i\vert v_i} = 1$ and the inner product with any other vector is zero, $\braket{v_i\vert v_j} = 0$, when $i\neq j$. 
 
 ## Matrices
 ## Dirac Notation
