@@ -113,11 +113,7 @@ $$
 \begin{pmatrix}
 a_{11} & a_{12} \\
 a_{21} & a_{22}
-\end{pmatrix}
-$$
-
-$$
-\begin{pmatrix}
+\end{pmatrix}\begin{pmatrix}
 v_{1}  \\
 v_{2}  
 \end{pmatrix}
