@@ -23,7 +23,7 @@ pie showdata
 		- [Classes](https://www.w3schools.com/python/python_classes.asp)
 			- [Inheritance/Polymorphism](https://www.w3schools.com/python/python_inheritance.asp)
 	- **Assignment**: Python 
-3. [Linear Algebra review](<./Linear Algebra.md>) 
+3. [Linear Algebra review](Math%20Review.md Algebra.md>) 
 	- **Quiz**: Math review
 	- Start Jupyter notebook with math example
 4. [Quantum Postulates](Postulates/README.md)  

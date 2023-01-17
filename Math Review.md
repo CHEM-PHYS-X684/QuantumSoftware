@@ -1,0 +1,69 @@
+## Vectors
+
+### Three Dimensions
+In 3D, [vectors](https://en.wikipedia.org/wiki/Euclidean_vector) are simply directional quantities, a geometric object with both a direction and a magnitude. We can denote them as:
+
+$$
+\vec{v} = v_x\vec{x} + v_y\vec{y} + v_z\vec{z}.
+$$
+
+If we add two vectors, we simply add their coefficients:
+
+$$
+\vec{v} + \vec{w} 
+=\left(v_x + w_x\right)\vec{x} 
++\left(v_y + w_y\right)\vec{y}
++\left(v_z + w_z\right)\vec{z}
+$$
+
+and multiplying vectors can be defined in one of 2 ways: the inner product, and the outer product. 
+
+The [inner product](https://en.wikipedia.org/wiki/Dot_product) (or dot product, or scalar product) is simply written as:
+
+$$
+\vec{v}\cdot\vec{w} = \sum_{i=1}^3v_iw_i = v_1w_1 + v_2w_2 + v_3w_3
+$$
+
+As you probably remember from earlier math classes, the dot product is:
+
+$$
+\vec{v}\cdot\vec{w} = \lVert\vec{v}\rVert\cdot\lVert\vec{w}\rVert\cos{\theta},
+$$
+
+where $\theta$ is just the angle between the two vectors. Notice that the dot product is bounded between zero and the product of the magnitudes:
+
+$$
+\lVert\vec{v}\cdot\vec{w}\rVert \leq \lVert\vec{v}\rVert\cdot\lVert\vec{w}\rVert.
+$$
+
+This is referred to as the [Cauchy-Schwartz Inequality](https://en.wikipedia.org/wiki/Cauchy%E2%80%93Schwarz_inequality). Once the basis vectors (i.e., $\vec{x}$, $\vec{y}$, $\vec{z}$) are specified, the vector $\vec{v}$ can be fully defined by only specifying its coefficients:
+
+$$
+\vec{v} = 
+\begin{pmatrix}
+v_x \\ v_y \\ v_z
+\end{pmatrix}
+$$
+
+### N-dimensions
+We can generalize this to an arbitrary number of dimensions. When we do so, we usually drop the $\rightarrow$ decoration, in favor of Dirac's [Braket notation](https://en.wikipedia.org/wiki/Bra%E2%80%93ket_notation), where vectors are denoted as a label inside of a "ket", $\vec{v}\rightarrow\ket{v}$.  
+Using this notation, we can take any given basis $\{\ket{v_1}, \ket{v_2}, \dots, \ket{v_i}\}$ of dimension $N$, and write an arbitrary function directly in terms of it's coefficients:
+$$
+\ket{\sigma} = \sum_{i=1}^Nc_i\ket{v_i}.
+$$
+
+In this form, 
+
+
+## Matrices
+## Dirac Notation
+
+## Resolution of the identity
+## Eigensystems
+- [Wikipedia](https://en.wikipedia.org/wiki/Eigendecomposition_of_a_matrix)
+## Matrix exponential 
+Assume $\hat{A}$ is a Hermitian matrix (this isn't necessary but it's helpful here). We can define the matrix exponential with standard [Taylor Series](https://en.wikipedia.org/wiki/Taylor_series#Exponential_function):
+
+$\displaystyle e^{\hat{A}} = \hat{I} + \hat{A} + \frac{1}{2!}\hat{A}^2 + \frac{1}{3!}\hat{A}^3 + \cdots$
+
+While this is formally straightforward, it's not clear how we would compute it in practice. To do so, we can simply use the eigendecomposition, $\hat{A} = \hat{U}a\hat{U}^\dagger$, where $a$ is a diagonal matrix of eigenvalues. 
