@@ -101,7 +101,12 @@ v_Nw_1 & v_Nw_2 & v_Nw_3 & \cdots & v_Nw_M \\
 \end{pmatrix}.
 $$
 
-So whereas the `inner product` gives us a scalar, the `outer product` gives us a [matrix](https://en.wikipedia.org/wiki/Matrix_(mathematics))!
+So whereas the `inner product` gives us a scalar, the `outer product` gives us a [matrix](https://en.wikipedia.org/wiki/Matrix_(mathematics))! This can also be represented with Dirac notation as,
+
+$$
+\ket{v}\otimes\ket{w} = \ket{v}\bra{w}
+$$
+
 
 [^cc]:	Here (and throughout this course) we will assume that the basis vectors form an orthonormal set. This simply means that the inner product of a vector with itself $\braket{v_i\vert v_i} = 1$ and the inner product with any other vector is zero, $\braket{v_i\vert v_j} = 0$, when $i\neq j$. 
 
@@ -110,16 +115,14 @@ So whereas the `inner product` gives us a scalar, the `outer product` gives us a
 Matrices, as you probably remember from linear algebra, are 2D grids of numbers. Whereas vectors can be thought of as *discretized functions*, matrices can be viewed as *discretized operators*. This becomes more evident after considering the multiplication of a vector by a matrix:
 
 $$
-\left(\begin{array}{cc}
+\begin{pmatrix}
 a_{11} & a_{12} \\
 a_{21} & a_{22}
-\end{array} 
-\right)
-\left(\begin{array}{c}
+\end{pmatrix} 
+\begin{pmatrix}
 v_{1}  \\
 v_{2}  
-\end{array} 
-\right)
+\end{pmatrix}
 =
 \begin{pmatrix}
 a_{11}v_{1} + a_{12}v_{2}  \\
@@ -163,6 +166,42 @@ c_{21} & c_{22}
 $$
 
 ## Resolution of the identity
+Above, we saw that while the inner product, $\braket{v\vert w}$, is a scalar, the outer product, $\ket{v}\bra{w}$ is a matrix. Let's take one of our orthonormal basis vectors ($\ket{v_i}$) and inspect the outer product with itself:
+
+$$
+\hat{P}_i = \ket{v_i}\bra{v_i}
+$$
+
+We call this the `projector` onto the $i^{th}$ vector, a terminology which can be understood by considering it's action upon a vector, $\ket{x} = \sum_jx_j\ket{v_j}$.
+
+$$\begin{align}
+\hat{P}_i\ket{x} = &\ket{v_i}\bra{v_i}\sum_jx_j\ket{v_j}\\
+ =& \sum_jx_j\ket{v_i}\braket{v_i\vert v_j}\\
+ =& \sum_jx_j\ket{v_i}\delta_{ij}\\
+ =& x_i\ket{v_i}
+\end{align}$$
+
+From this, we can see that applying the $i^{th}$ projector onto any vector will return the component of that vector along the $i^{th}$ direction. To relate back to a 3D case, if we apply the projector for the $x$ axis to any vector we would get back the component along the $x$ axis. 
+
+Intuitively, if we were to apply a  projection twice, it should have the same result as applying it once - once we have projected onto a specific basis vector, there's nothing left to project out. Such a matrix is called [Idempotent](https://en.wikipedia.org/wiki/Idempotent_matrix). 
+
+$$\begin{align}
+\hat{P}_i\hat{P}_i =& \left(\ket{v_i}\bra{v_i}\right)\left(\ket{v_i}\bra{v_i}\right)\\
+=& \ket{v_i}\braket{v_i|v_i}\bra{v_i}\\
+=& \ket{v_i}\bra{v_i}\\
+=& \hat{P}_i\\
+\end{align}$$
+
+We could also define a projection onto a subspace by just adding the corresponding projectors. Imagine a 3D vector. We could obtain its projection on the $xy$ plane, by simply adding $\hat{P}_x + \hat{P}_y$. Applying this to any 3D vector would essentially give its "shadow" on the $xy$ plane. 
+
+What if we were to add up the projection operators for all the basis vectors? This would give the projection on the full space, which is simply just the original vector. This might seem like a silly thing to do, but it is really useful in Linear Algebra and Quantum Mechanics, and is referred to as the `Resolution of the Identity`. 
+
+$$
+\hat{I} = \sum_i\ket{v_i}\bra{v_i}
+$$
+
+We can use the resolution of the identity to change from one basis to another. 
+
 ## Eigensystems
 - [Wikipedia](https://en.wikipedia.org/wiki/Eigendecomposition_of_a_matrix)
 ## Matrix exponential 
