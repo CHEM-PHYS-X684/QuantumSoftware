@@ -217,7 +217,7 @@ We can use the resolution of the identity to change from one basis to another.
 ## Eigensystems
 - [Wikipedia](https://en.wikipedia.org/wiki/Eigendecomposition_of_a_matrix)
 
-Although any operator, $\hat{A}$,  can be multiplied against a vector, $\ket{v}$ to yield a new vector, $\ket{w}, often times one encounters the situation where the transformation of a vector by a matrix is particularly simple in that it only "scales" the vector by a number. When this happens, we refer to the vector as an `eigenvector` of the operator, and the value by which the result is scaled is called the `eigenvalue`. In the following,
+Although any operator, $\hat{A}$,  can be multiplied against a vector, $\ket{v}$ to yield a new vector, $\ket{w}$, often times one encounters the situation where the transformation of a vector by a matrix is particularly simple in that it only "scales" the vector by a number. When this happens, we refer to the vector as an `eigenvector` of the operator, and the value by which the result is scaled is called the `eigenvalue`. In the following,
 
 $$
 \hat{A}\ket{v} = a_v\ket{v}
@@ -228,6 +228,8 @@ we would say that $\ket{v}$ is an eigenvector of $\hat{A}$ with eigenvalue, $a_v
 For hermitian matrices, we can always find a full set of eigenvectors which is equal to the dimension of the space. Resolving the identity into this basis yields a matrix which is diagonal, and thus this process is called `diagonalizing` the matrix. 
 
 Wikipedia has a nice collection of useful facts concerning Eigenvalues/vectors: [here](https://en.wikipedia.org/wiki/Eigendecomposition_of_a_matrix#Useful_facts).
+
+---
 
 ## Matrix exponential 
 Assume $\hat{A}$ is a Hermitian matrix (this isn't necessary but it's helpful here). We can define the matrix exponential with standard [Taylor Series](https://en.wikipedia.org/wiki/Taylor_series#Exponential_function):
