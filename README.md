@@ -19,7 +19,7 @@ pie showdata
 1. [Computer setup](https://chem-phys-x684.github.io/python-package-best-practices/setup.html)
 	- [Instructions for Windows](https://chem-phys-x684.github.io/python-package-best-practices/setup.html#WSL-install)
 	- [Shell tutorial](https://swcarpentry.github.io/shell-novice/)
-	- **Assignment**: Setup
+	- **Assignment** 
 1. Python
 	- [MolSSI Tutorial](https://education.molssi.org/python_scripting_cms/01-introduction/index.html)
 	- [w3schools Tutorial](https://www.w3schools.com/python/default.asp)

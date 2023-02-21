@@ -51,12 +51,13 @@ This is referred to as the [Cauchy-Schwartz Inequality](https://en.wikipedia.org
 
 $$
 \vec{v} = 
-\left(
-\begin{array}{c}
-v_x \\ v_y \\ v_z
-\end{array}
-\right)
+\begin{pmatrix}
+v_x \\ 
+v_y \\ 
+v_z
+\end{pmatrix}
 $$
+
 
 in this notation we can also define a dot product as:
 
@@ -66,7 +67,9 @@ $$
 v_x & v_y & v_z
 \end{array}\right)
 \left(\begin{array}{c}
-w_x \\ w_y \\ w_z
+w_x \\ 
+w_y \\ 
+w_z
 \end{array}\right)
 $$
 
@@ -115,24 +118,22 @@ $$
 
 Matrices, as you probably remember from linear algebra, are 2D grids of numbers. Whereas vectors can be thought of as *discretized functions*, matrices can be viewed as *discretized operators*. This becomes more evident after considering the multiplication of a vector by a matrix:
 
+
 $$
 \begin{pmatrix}
 a_{11} & a_{12} \\
 a_{21} & a_{22}
-\end{pmatrix} 
-\begin{pmatrix}
+\end{pmatrix} \begin{pmatrix}
 v_{1}  \\
 v_{2}  
-\end{pmatrix}
-=
+\end{pmatrix}=
 \begin{pmatrix}
 a_{11}v_{1} + a_{12}v_{2}  \\
 a_{21}v_{1} + a_{22}v_{2} 
-\end{pmatrix}
-=
+\end{pmatrix}=
 \begin{pmatrix}
 w_{1}  \\
-w_{2}  \\
+w_{2} 
 \end{pmatrix}.
 $$
 
@@ -149,17 +150,15 @@ a_{21} & a_{22}
 \begin{pmatrix}
 b_{11} & b_{12} \\
 b_{21} & b_{22}
-\end{pmatrix}
-=
+\end{pmatrix}=
 \left(
 \begin{array}{c|c}
 a_{11}b_{11} + a_{12}b_{21} & 
-a_{11}b_{12} + a_{12}b_{22} \\\hline
-a_{21}b_{11} + a_{22}b_{21} & 
-a_{21}b_{12} + a_{22}b_{22} \\
+a_{11}b_{12} + a_{12}b_{22} \\
+\hline a_{21}b_{11} + a_{22}b_{21} & 
+a_{21}b_{12} + a_{22}b_{22}
 \end{array}
-\right)
-=
+\right)=
 \begin{pmatrix}
 c_{11} & c_{12} \\
 c_{21} & c_{22}
@@ -218,7 +217,7 @@ We can use the resolution of the identity to change from one basis to another.
 ## Eigensystems
 - [Wikipedia](https://en.wikipedia.org/wiki/Eigendecomposition_of_a_matrix)
 
-Although any operator, $\hat{A}$,  can be multiplied against a vector, $\ket{v}$ to yield a new vector, $\ket{w}, often times one encounters the situation where the transformation of a vector by a matrix is particularly simple in that it only "scales" the vector by a number. When this happens, we refer to the vector as an `eigenvector` of the operator, and the value by which the result is scaled is called the `eigenvalue`. In the following,
+Although any operator, $\hat{A}$,  can be multiplied against a vector, $\ket{v}$ to yield a new vector, $\ket{w}$, often times one encounters the situation where the transformation of a vector by a matrix is particularly simple in that it only "scales" the vector by a number. When this happens, we refer to the vector as an `eigenvector` of the operator, and the value by which the result is scaled is called the `eigenvalue`. In the following,
 
 $$
 \hat{A}\ket{v} = a_v\ket{v}
@@ -229,6 +228,8 @@ we would say that $\ket{v}$ is an eigenvector of $\hat{A}$ with eigenvalue, $a_v
 For hermitian matrices, we can always find a full set of eigenvectors which is equal to the dimension of the space. Resolving the identity into this basis yields a matrix which is diagonal, and thus this process is called `diagonalizing` the matrix. 
 
 Wikipedia has a nice collection of useful facts concerning Eigenvalues/vectors: [here](https://en.wikipedia.org/wiki/Eigendecomposition_of_a_matrix#Useful_facts).
+
+---
 
 ## Matrix exponential 
 Assume $\hat{A}$ is a Hermitian matrix (this isn't necessary but it's helpful here). We can define the matrix exponential with standard [Taylor Series](https://en.wikipedia.org/wiki/Taylor_series#Exponential_function):
