@@ -20,3 +20,7 @@ In `Max-Cut` we try to partition the nodes of a graph into two groups while maxi
 - [max-cut video](https://www.youtube.com/watch?v=mD-0VpNSJA0) This video demonstrates how physical systems that emulate an ising model can find the ground state. In this example, a set of coupled metronomes is used. 
 
 - Connection between Ising model and Max-cut: https://arxiv.org/pdf/1501.07030.pdf
+
+
+- List of NP problems and how they map to Ising:
+	- https://arxiv.org/pdf/1302.5843.pdf
