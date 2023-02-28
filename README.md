@@ -35,11 +35,10 @@ pie showdata
 4. [Quantum Postulates](Postulates/README.md)  
 	- TDSE solutions via trotterization
 	- **Quiz**: Postulates
-5. Quantum Computing
-	- Concepts (Qubits, etc)
-	- Basic Gates
-	- Qiskit
-6. [Classical Optimization](CSP/README.md)
+4. Particle in a Box
+	- Example of a quantum system
+	- **Assignment**: PIB Notebook
+2. [Classical Optimization](CSP/README.md)
 	- Constraint Satisfaction Problems (CSP)
 		- Max-Cut
 		- Traveling Salesman
@@ -47,11 +46,15 @@ pie showdata
 	- Ising Model
 		- Pauli Operators
 		- Code Ground state in Notebook
-7. MolSSI Materials
-	- Turn Jupyter functions into [package](https://chem-phys-x684.github.io/python-package-best-practices/01-package-setup/index.html)
+3. MolSSI Materials
+	- Turn Jupyter functions into [package](https://education.molssi.org/python-package-best-practices/)
 	- Code MonteCarlo
-8. Ising $\rightarrow$ Heisenberg 
-9. Adiabatic State Preparation
+1. Quantum Computing
+	- Concepts (Qubits, etc)
+	- Basic Gates
+	- Qiskit
+4. Ising $\rightarrow$ Heisenberg 
+5. Adiabatic State Preparation
 	- adiabatic principle
 	- adiabatic principle for Ising
 
