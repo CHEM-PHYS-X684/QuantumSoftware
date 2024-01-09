@@ -16,8 +16,8 @@ pie showdata
 ```
 
 ### Tentative Schedule
-1. [Computer setup](https://education.molssi.org/python-package-best-practices/)
-	- [Instructions for Windows](https://chem-phys-x684.github.io/python-package-best-practices/setup.html#WSL-install)
+1. [Computer setup](https://education.molssi.org/python-package-best-practices/setup.html)
+	- [Instructions for Windows](https://chem-phys-x684.github.io/python-package-best-practices/setup.html#installing-wsl-windows-users-only)
 	- [Shell tutorial](https://swcarpentry.github.io/shell-novice/)
 	- **Assignment** 
 1. Python
@@ -25,7 +25,7 @@ pie showdata
 	- [w3schools Tutorial](https://www.w3schools.com/python/default.asp)
 	- Concepts
 		- [Variables and Functions](https://www.w3schools.com/python/python_variables.asp)
-			- [Duck Typing and Type hinting](https://chem-phys-x684.github.io/python-package-best-practices/06-type-hinting/index.html)
+			- [Duck Typing and Type hinting](https://chem-phys-x684.github.io/python-package-best-practices/06-type-hinting.html)
 		- [Classes](https://www.w3schools.com/python/python_classes.asp)
 			- [Inheritance/Polymorphism](https://www.w3schools.com/python/python_inheritance.asp)
 	- **Assignment**: Python 
