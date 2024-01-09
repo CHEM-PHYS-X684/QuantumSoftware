@@ -16,7 +16,7 @@ pie showdata
 ```
 
 ### Tentative Schedule
-1. [Computer setup](https://chem-phys-x684.github.io/python-package-best-practices/setup.html)
+1. [Computer setup](https://education.molssi.org/python-package-best-practices/)
 	- [Instructions for Windows](https://chem-phys-x684.github.io/python-package-best-practices/setup.html#WSL-install)
 	- [Shell tutorial](https://swcarpentry.github.io/shell-novice/)
 	- **Assignment** 
