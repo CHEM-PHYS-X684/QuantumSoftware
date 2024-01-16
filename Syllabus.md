@@ -129,8 +129,30 @@ The Undergraduate Honor Code pledge that each member of the university community
 
 >As a Hokie, I will conduct myself with honor and integrity at all times.  I will not lie, cheat, or steal, nor will I accept the actions of those who do.
 
-Students enrolled in this course are responsible for abiding by the Honor Code. A student who has doubts about how the Honor Code applies to any assignment is responsible for obtaining specific guidance from the course instructor before submitting the assignment for evaluation. Ignorance of the rules does not exclude any member of the University community from the requirements and expectations of the Honor Code. 
 
-Academic integrity expectations are the same for online classes as they are for in person classes.  We strongly encourage all instructors to discuss the use of technology, and specifically discuss areas we know are problematic temptations for students such as Chegg, CourseHero, and GroupMe to discourage students from using them.  When the semester starts is an appropriate time in addition to providing a kind reminder before exams and assignments about expectations related to these sites.  Please make your students aware that we are able to effectively investigate these incidents.  If you have any questions about these sites or discussing them with your students, please do not hesitate to call our office.  All university policies and procedures apply in any Virginia Tech academic environment, and all students are expected to follow them.
+Students enrolled in this course are responsible for abiding by the Honor Code. A student who
+has doubts about how the Honor Code applies to any assignment is responsible for obtaining
+specific guidance from the course instructor before submitting the assignment for evaluation.
+Students are strongly discouraged from misusing sites such as Chegg and CourseHero, as well as
+misusing ChatGPT and other Generative Artificial Intelligence. Students are strongly
+encouraged to consult their faculty members regarding the use of such outside materials as the
+misuse of these sources may constitute a violation of the Honor Code. Ignorance of the rules
+does not exclude any member of the University community from the requirements and
+expectations of the Honor Code.
+
+Academic integrity expectations are the same for online classes as they are for in person classes.
+We strongly encourage all instructors to discuss the use of technology, and specifically discuss
+areas we know are problematic temptations for students such as ChatGPT, Chegg, CourseHero,
+and GroupMe to discourage students from using them. When the semester starts is an
+appropriate time in addition to providing a kind reminder before exams and assignments about
+expectations related to these sites. Please make your students aware that we are able to
+effectively investigate these incidents. If you have any questions about these sites or discussing
+them with your students, please do not hesitate to call our office. All university policies and
+procedures apply in any Virginia Tech academic environment, and all students are expected to
+follow them.
 
 For additional information about the Honor Code, please visit: https://www.honorsystem.vt.edu/
+
+
+# Statement of Lauren's Promise
+**Lauren's Promise:** I will listen and believe you if someone is threatening you.
