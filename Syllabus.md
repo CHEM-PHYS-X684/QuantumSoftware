@@ -38,7 +38,7 @@ pie showdata
 4. [Quantum Postulates](Postulates/README.md)  
 	- TDSE solutions via trotterization
 	- **Quiz**: Postulates
-4. Particle in a Box
+4. [Particle in a Box](https://en.wikipedia.org/wiki/Particle_in_a_box)
 	- Example of a quantum system
 	- **Assignment**: particle_in_a_box.ipynb 
 		> Develop a Jupyter notebook that solves and plots solutions for a 1D particle in a box 
