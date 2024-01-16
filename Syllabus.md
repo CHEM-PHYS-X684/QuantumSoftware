@@ -10,7 +10,7 @@
 ```mermaid
 pie showdata
 	"Engagement" : 20
-	"Quizes" : 20
+	"Quizzes" : 20
 	"Assignments":  30
 	"Software" : 30
 ```
@@ -18,8 +18,10 @@ pie showdata
 ### Tentative Schedule
 1. [Computer setup](https://education.molssi.org/python-package-best-practices/setup.html)
 	- [Instructions for Windows](https://chem-phys-x684.github.io/python-package-best-practices/setup.html#installing-wsl-windows-users-only)
+	- **Quiz**: setup_quiz.ipynb 
 	- [Shell tutorial](https://swcarpentry.github.io/shell-novice/)
-	- **Assignment** 
+	- **Assignment**: shell.ipynb 
+		> Answer the questions in the provided Jupyter notebook to test your proficiency at using shell commands
 1. Python
 	- [MolSSI Tutorial](https://education.molssi.org/python_scripting_cms/01-introduction/index.html)
 	- [w3schools Tutorial](https://www.w3schools.com/python/default.asp)
@@ -28,7 +30,8 @@ pie showdata
 			- [Duck Typing and Type hinting](https://chem-phys-x684.github.io/python-package-best-practices/06-type-hinting.html)
 		- [Classes](https://www.w3schools.com/python/python_classes.asp)
 			- [Inheritance/Polymorphism](https://www.w3schools.com/python/python_inheritance.asp)
-	- **Assignment**: Python 
+	- **Assignment**: bitstring_class.ipynb 
+		> Implement a Python class in a Jupyter notebook that implements a "bitstring", i.e., a string of zeros and ones. We will use this later in the class. 
 3. [Math review](<Math Review.md>)
 	- **Quiz**: Math review
 	- Start Jupyter notebook with math example
@@ -37,7 +40,8 @@ pie showdata
 	- **Quiz**: Postulates
 4. Particle in a Box
 	- Example of a quantum system
-	- **Assignment**: PIB Notebook
+	- **Assignment**: particle_in_a_box.ipynb 
+		> Develop a Jupyter notebook that solves and plots solutions for a 1D particle in a box 
 2. [Classical Optimization](CSP/README.md)
 	- Constraint Satisfaction Problems (CSP)
 		- Max-Cut
@@ -46,18 +50,24 @@ pie showdata
 	- Ising Model
 		- Pauli Operators
 		- Code Ground state in Notebook
-3. MolSSI Materials
-	- Turn Jupyter functions into [package](https://education.molssi.org/python-package-best-practices/)
-	- Code MonteCarlo
+		- **Assignment:** graph_energy.ipynb
+			> Develop a Jupyter notebook that finds the ground state (lowest energy) configuration of an arbitrary Ising Hamiltonian, that is defined by a Graph 
+	- Monte Carlo 
+		- Thermodynamic averages
+		- Go through [MolSSI workshop](https://education.molssi.org/python-package-best-practices/) to develop a software package
+		- Turn Jupyter functions into Monte Carlo package 
+		- **Assignment:** monte_carlo.ipynb
+			> Develop a Python package to implement a Monte Carlo simulation of an arbitrary Ising Hamiltonian
 1. Quantum Computing
 	- Concepts (Qubits, etc)
 	- Basic Gates
 	- Qiskit
-4. Ising $\rightarrow$ Heisenberg 
 5. Adiabatic State Preparation
+	<!-- - Ising $\rightarrow$ Heisenberg  -->
 	- adiabatic principle
 	- adiabatic principle for Ising
-
+	- **Assignment**: adiabatic_state_prep.ipynb
+		> Develop a Jupyter notebook that builds and executes quantum circuits that find the ground states of an arbitrary Ising Hamiltonian
 
 ---
 
