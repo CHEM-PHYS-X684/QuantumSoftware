@@ -18,6 +18,8 @@ pie showdata
 ### Tentative Schedule
 1. [Computer setup](https://education.molssi.org/python-package-best-practices/setup.html)
 	- [Instructions for Windows](https://chem-phys-x684.github.io/python-package-best-practices/setup.html#installing-wsl-windows-users-only)
+
+
 	- **Quiz**: setup_quiz.ipynb 
 	- [Shell tutorial](https://swcarpentry.github.io/shell-novice/)
 	- [git tutorial](https://education.molssi.org/python-package-best-practices/00-git-and-github.html)
