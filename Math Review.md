@@ -44,7 +44,7 @@ $$
 where $\theta$ is just the angle between the two vectors. Notice that the dot product is bounded between zero and the product of the magnitudes:
 
 $$
-\lVert\vec{v}\cdot\vec{w}\rVert \leq \lVert\vec{v}\rVert\cdot\lVert\vec{w}\rVert.
+\lvert\vec{v}\cdot\vec{w}\rvert \leq \lVert\vec{v}\rVert\cdot\lVert\vec{w}\rVert.
 $$
 
 This is referred to as the [Cauchy-Schwartz Inequality](https://en.wikipedia.org/wiki/Cauchy%E2%80%93Schwarz_inequality). Once the basis vectors (i.e., $\vec{x}$, $\vec{y}$, $\vec{z}$) are specified, the vector $\vec{v}$ can be fully defined by only specifying its coefficients:
@@ -165,7 +165,7 @@ c_{21} & c_{22}
 \end{pmatrix}
 $$
 
-If a matrix has the property, $\hat{A}^\dagger = \hat{A}$, it is called a . 
+If a matrix has the property, $\hat{A}^\dagger = \hat{A}$, it is called a Hermitian matrix. 
 
 A few types of matrices:
 
