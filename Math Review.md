@@ -64,7 +64,7 @@ in this notation we can also define a dot product as:
 $$
 \vec{v}\cdot\vec{w} = \vec{v}^\dagger\vec{w} = 
 \left(\begin{array}{c}
-v_x & v_y & v_z
+v_x^* & v_y^* & v_z^*
 \end{array}\right)
 \left(\begin{array}{c}
 w_x \\ 
@@ -95,7 +95,7 @@ Notice that the inner product returns a `scalar`, or a simple number. Because of
 However, as mentioned above, there are two ways to multiply two vectors. In addition to the inner product discussed above, we also can define an [outer product](https://en.wikipedia.org/wiki/Outer_product). Assume $\ket{v}$ is $N$-dimensional, and $\ket{w}$ is $M$-dimensional (note, that $N=M$ is certainly possible and allowed), then:
 
 $$
-\ket{v}\otimes\ket{w} = \begin{pmatrix}
+\ket{v}\bra{w} = \begin{pmatrix}
 v_1w_1 & v_1w_2 & v_1w_3 & \cdots & v_1w_M \\
 v_2w_1 & v_2w_2 & v_2w_3 & \cdots & v_2w_M \\
 v_3w_1 & v_3w_2 & v_3w_3 & \cdots & v_3w_M \\
@@ -104,11 +104,8 @@ v_Nw_1 & v_Nw_2 & v_Nw_3 & \cdots & v_Nw_M \\
 \end{pmatrix}.
 $$
 
-So whereas the `inner product` gives us a scalar, the `outer product` gives us a [matrix](https://en.wikipedia.org/wiki/Matrix_(mathematics))! This can also be represented with Dirac notation as,
+So whereas the `inner product` gives us a scalar, the `outer product` gives us a [matrix](https://en.wikipedia.org/wiki/Matrix_(mathematics))! 
 
-$$
-\ket{v}\otimes\ket{w} = \ket{v}\bra{w}
-$$
 
 
 [^cc]:	Here (and throughout this course) we will assume that the basis vectors form an orthonormal set. This simply means that the inner product of a vector with itself $\braket{v_i\vert v_i} = 1$ and the inner product with any other vector is zero, $\braket{v_i\vert v_j} = 0$, when $i\neq j$. 
