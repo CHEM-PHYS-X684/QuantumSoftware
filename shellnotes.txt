@@ -1,0 +1,65 @@
+shell stuff
+
+pwd			prints working directory
+man			turns terminal to a help page (/ to find, N to find next)
+--help			help function
+ls			list
+cd			move into
+cd ..			move to parent
+cd - 			move back
+mkdir 			create directory
+mkdir -p		also creates the subdirectories
+nano			create text file using editor nano
+touch			create emtpy text file
+rm			remove files
+mv			moves and renames file, directory, etc (last arugment should be destination)
+rm -r			removes directory and all its files
+*			one or more character wildcard
+?			one character wildcard
+wc			word count (lines, words, characters)
+>			redirects output to a file (and overwrites)
+cat			concatinate files (doesnt modify files)
+less			cat but displays the files instead of displaying on terminal
+sort			sorts alphabetically (does not change file)
+sort -n			sorts numerically (does not change file)
+head -n (num)		displays the first (num) lines of a file
+echo			prints text (can be used to input text in files)
+>>			basically > but adds instead of overwrites
+tail -n (num)		displays the last (num) lines of a file
+|			pipe, uses the command on left as input for command on right of pipe
+cut			remove certain sections of each line using a delimiter and specified sections
+uniq 			filters out adjacent matching lines in a file
+uniq -c			filters then counts the number of times a line occurs
+
+ctrl+c			to exit out of input processing state
+
+for loop		for thing in list_of_things 
+			#The word "do" indicates the start of job execution list
+			do 
+			    # Indentation within the loop is not required, but aids legibility
+			    operation_using/command $thing 
+			# The word "done" indicates the end of a loop
+			done  
+
+; 			used to separate two commands in a single line
+{}			delimits items
+bash			asks bash to run command
+$			used for variables
+$@			all of the command-line arugments to the shell script
+bash -x			enters debug mode
+grep			'global/regular expression/print' finds lines in files
+grep -w			limit to be exact
+grep -n			shows line numbers
+grep -i			case-insensitive
+grep -v			shows lines where the word is not found
+grep -r 		searches through a set of files in subdirectories
+grep -o			shows only matching word
+grep -c			counts the number of lines of matching word
+find			finds files
+find . -type d		finds all directories under .
+find . -type f		finds all files under .
+find . -name ""		find things with "" in its name
+wc -l $(find . -name "*.txt") = wc -l ./writing/LittleWomen.txt ./writing/haiku.txt ./numbers.txt
+grep "word" $(find . -name "*.txt")	searchs for lines with "word" inside *.txt files
+
+
