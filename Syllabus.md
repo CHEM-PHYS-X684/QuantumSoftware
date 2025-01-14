@@ -112,11 +112,10 @@ Develop and write a 2-3 page proposal(11pt font, single spaced) proposal.
 
 ### Software Rubric
 Create a Python GitHub package that executes what was proposed above
-1. **Documentation:** (20pts)
-2. **Unit Testing:** (20pts)
+1. **Documentation:** (30pts)
+2. **Unit Testing:** (30pts)
 3. **Organization:** (20pts)
 4. **Examples:** (20pts)
-5. **Performance:** (20pts)
 
 
 ### Presentation Rubric

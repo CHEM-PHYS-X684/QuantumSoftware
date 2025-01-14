@@ -1,1 +1,0 @@
-- Qiskit max cut example: https://qiskit.org/documentation/optimization/tutorials/06_examples_max_cut_and_tsp.html
