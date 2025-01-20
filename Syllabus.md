@@ -1,9 +1,9 @@
 # CHEM/PHYS 3684
 
-| | |
-| --- | --- |
-| **Room:** |  Robeson 116 |
-| **Time:** | 11am-11:50pm |
+|           |                  |
+| --------- | ---------------- |
+| **Room:** | Pamplin 1002     |
+| **Time:** | 11am-11:50pm     |
 | **Days:** | Tuesday/Thursday |
 
 ### Grading
