@@ -41,7 +41,7 @@ pie showdata
 4. [Quantum Postulates](Postulates/README.md)  
 	- TDSE solutions via trotterization
 	- **Quiz**: Postulates
-4. [Particle in a Box](https://en.wikipedia.org/wiki/Particle_in_a_box)
+4. [Particle in a Box](https://en.wikipedia.org/wiki/Particle_in_a_box)(?)
 	- Example of a quantum system
 	- **Assignment**: particle_in_a_box.ipynb 
 		> Develop a Jupyter notebook that solves and plots solutions for a 1D particle in a box 
@@ -55,6 +55,8 @@ pie showdata
 		- Code Ground state in Notebook
 		- **Assignment:** graph_energy.ipynb
 			> Develop a Jupyter notebook that finds the ground state (lowest energy) configuration of an arbitrary Ising Hamiltonian, that is defined by a Graph 
+		- **Assignment:** ising_ensemble_avg.ipynb
+			> Develop a Jupyter notebook that finds the thermodynamic averages of a few quantities for an arbitrary Ising Hamiltonian defined by a Graph 
 	- Monte Carlo 
 		- Thermodynamic averages
 		- Go through [MolSSI workshop](https://education.molssi.org/python-package-best-practices/) to develop a software package
@@ -109,6 +111,7 @@ Develop and write a 2-3 page proposal(11pt font, single spaced) proposal.
    How long do you expect each step to take?
 5. **References:** (10pts) 
    Make sure you include a proper bibliography to support any claims you make
+6. **Due Date:** Feb. 25
 
 ### Software Rubric
 Create a Python GitHub package that executes what was proposed above
@@ -116,6 +119,7 @@ Create a Python GitHub package that executes what was proposed above
 2. **Unit Testing:** (30pts)
 3. **Organization:** (20pts)
 4. **Examples:** (20pts)
+5. **Due Date:** Apr. 3 
 
 
 ### Presentation Rubric
@@ -124,6 +128,7 @@ Prepare and deliver a presentation on your project
 1. **Correctness:** (30pts)
 2. **Clarity of Materials:** (20pts)
 2. **Clarity of Narrative:** (30pts)
+5. **Due Date:** May 6 
 
 
 # Academic Honor System
