@@ -8,12 +8,13 @@
 
 ### Grading
 ```mermaid
-pie showdata
+	pie
 	"Engagement" : 20
 	"Quizzes" : 20
 	"Assignments":  30
 	"Software" : 30
 ```
+
 
 ### Tentative Schedule
 1. [Computer setup](https://education.molssi.org/python-package-best-practices/setup.html)
@@ -87,7 +88,7 @@ pie showdata
 
 ### Grading
 ```mermaid
-pie showdata
+pie
 	"Mentoring/Engagement" : 20
 	"Project Proposal" : 20
 	"Software Package":  40
