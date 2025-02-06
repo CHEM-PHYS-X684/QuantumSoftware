@@ -86,7 +86,7 @@ $$
 
 A vector can be thought of as a discretized function. For instance, the $i^{th}$ component of a vector returns a number. Similarly, if we pass $i$ to the function $f(x)$ we also get a number back. 
 
-In this form, the dot product (now consistently referred to as the inner product) is written as:[^cc]
+In this form, the dot product (now referred to as the inner product) is written as:[^cc]
 
 $$\braket{v\vert w} = \left(\ket{v}\right)^\dagger\cdot\ket{w} = \sum_i v_i^*w_i
 $$
@@ -171,7 +171,7 @@ A few types of matrices:
 |$\hat{A} = \hat{A}^\dagger$ | [Hermitian](https://en.wikipedia.org/wiki/Hermitian_matrix) | Physical Observables | |
 |$\hat{A}^\dagger = \hat{A}^{-1}$ | [Unitary](https://en.wikipedia.org/wiki/Unitary_matrix) | Time Evolution |
 |$\hat{A}\hat{A} = \hat{A}$ | [Idempotent](https://en.wikipedia.org/wiki/Idempotent_matrix) | Projection |
-|$\hat{A}\hat{A} = \hat{I}$ | [Involutory](https://en.wikipedia.org/wiki/Involutory_matrix) | Pauli's/Angular Momentum|
+|$\hat{A}\hat{A} = \hat{I}$ | [Involutory](https://en.wikipedia.org/wiki/Involutory_matrix) | Pauli's|
 
 
 ## Resolution of the identity
