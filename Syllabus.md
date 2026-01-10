@@ -2,8 +2,8 @@
 
 |           |                  |
 | --------- | ---------------- |
-| **Room:** | Pamplin 1002     |
-| **Time:** | 11am-11:50pm     |
+| **Room:** | Robeson 116     |
+| **Time:** | 11am-12:15pm     |
 | **Days:** | Tuesday/Thursday |
 
 ### Grading
@@ -80,7 +80,7 @@
 | | |
 | --- | --- |
 | **Room:** |  Robeson 116 |
-| **Time:** | 11am-11:50pm |
+| **Time:** | 11am-12:15pm |
 | **Days:** | Tuesday/Thursday |
 
 
