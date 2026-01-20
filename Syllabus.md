@@ -6,6 +6,8 @@
 | **Time:** | 11am-12:15pm     |
 | **Days:** | Tuesday/Thursday |
 
+Attendance at all class sessions is mandatory.
+
 ### Grading
 ```mermaid
 	pie
@@ -83,6 +85,7 @@
 | **Time:** | 11am-12:15pm |
 | **Days:** | Tuesday/Thursday |
 
+Attendance at all class sessions is mandatory.
 
 ### Grading
 ```mermaid
