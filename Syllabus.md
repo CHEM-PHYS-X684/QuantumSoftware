@@ -110,7 +110,7 @@ Develop and write a 2-3 page proposal(11pt font, single spaced) proposal.
    How long do you expect each step to take?
 5. **References:** (10pts) 
    Make sure you include a proper bibliography to support any claims you make
-6. **Due Date:** Feb. 25
+6. **Due Date:** Feb. 24
 
 ### Software Rubric
 Create a Python GitHub package that executes what was proposed above
@@ -118,7 +118,7 @@ Create a Python GitHub package that executes what was proposed above
 2. **Unit Testing:** (30pts)
 3. **Organization:** (20pts)
 4. **Examples:** (20pts)
-5. **Due Date:** Apr. 3 
+5. **Due Date:** Apr. 2 
 
 
 ### Presentation Rubric
@@ -127,26 +127,22 @@ Prepare and deliver a presentation on your project
 1. **Correctness:** (30pts)
 2. **Clarity of Materials:** (20pts)
 2. **Clarity of Narrative:** (30pts)
-5. **Due Date:** May 6 
+5. **Due Date:** May 5 
 
 
 # Academic Honor System
 The Undergraduate Honor Code pledge that each member of the university community agrees to abide by states:
 
->As a Hokie, I will conduct myself with honor and integrity at all times.  I will not lie, cheat, or steal, nor will I accept the actions of those who do.
+>As a Hokie, I will conduct myself with honor and integrity at all times.  I will not lie, cheat, or steal, nor will I accept the actions of those who do.
 
 
-Students enrolled in this course are responsible for abiding by the Honor Code. A student who
-has doubts about how the Honor Code applies to any assignment is responsible for obtaining
-specific guidance from the course instructor before submitting the assignment for evaluation.
-Students are strongly discouraged from misusing sites such as Chegg and CourseHero, as well as
-misusing ChatGPT and other Generative Artificial Intelligence. Students are strongly
-encouraged to consult their faculty members regarding the use of such outside materials as the
-misuse of these sources may constitute a violation of the Honor Code. Ignorance of the rules
-does not exclude any member of the University community from the requirements and
-expectations of the Honor Code.
+Students enrolled in this course are responsible for abiding by the undergraduate Honor Code on each assignment and/or exam. A student who has doubts about how the Honor Code applies to any assignment is responsible for obtaining specific guidance from the course instructor before submitting the assignment for evaluation. Students are strongly discouraged from misusing unauthorized online sources including generative artificial intelligence outlets. Students are strongly encouraged to consult their faculty members regarding the use of such outside materials as the misuse of these sources may constitute a violation of the Honor Code. Ignorance of the rules does not exclude any member of the University community from the requirements and expectations of the Honor Code.
 
-Academic integrity expectations are the same for online classes as they are for in person classes.
+**AI Policy: AI Use for Specific Assignments**
+
+In this course, generative AI tools may only be used for specific assignments that are designated by the instructor. Any assignment requiring use of AI will be clearly outlined in the assignment instructions and may include tasks such as brainstorming, analyzing information or editing. For all other assignments, the use of AI tools is prohibited and constitutes unauthorized assistance under the Honor Code. When AI use is permitted, students must disclose how AI was used through appropriate citations. If you are ever uncertain about the use of AI, it is your responsibility to ask your faculty member before proceeding.
+
+The Academic Integrity expectations for Hokies are the same in an online class as they are in an in-person class. Hokies are expected to meet the academic integrity standards at Virginia Tech at all times.
 We strongly encourage all instructors to discuss the use of technology, and specifically discuss
 areas we know are problematic temptations for students such as ChatGPT, Chegg, CourseHero,
 and GroupMe to discourage students from using them. When the semester starts is an
@@ -157,8 +153,7 @@ them with your students, please do not hesitate to call our office. All universi
 procedures apply in any Virginia Tech academic environment, and all students are expected to
 follow them.
 
-For additional information about the Honor Code, please visit: https://www.honorsystem.vt.edu/
-
+See additional information about the [Honor Code](https://www.honorsystem.vt.edu/).
 
 # Statement of Lauren's Promise
 **Lauren's Promise:** I will listen and believe you if someone is threatening you.
