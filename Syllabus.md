@@ -21,8 +21,8 @@
 
 
 	- **Quiz**: setup_quiz.ipynb 
-	- [Shell tutorial](https://swcarpentry.github.io/shell-novice/)
 	- [git tutorial](https://education.molssi.org/python-package-best-practices/00-git-and-github.html)
+	- [Shell tutorial](https://swcarpentry.github.io/shell-novice/)
 	- **Assignment**: shell.ipynb 
 		> Answer the questions in the provided Jupyter notebook to test your proficiency at using shell commands
 1. Python
