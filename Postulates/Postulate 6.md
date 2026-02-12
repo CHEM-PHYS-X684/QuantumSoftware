@@ -22,19 +22,17 @@ $$\hat{U}(t,t_0) = e^{\frac{-i}{\hbar}\hat{H}(t-t_0)}. $$
 Differentiate this to convince yourself that this is a solution to the time dependent Schrödinger equation.  Because of this simple form, we can do fancy things, like first go to $t_2$, then go to $t$, e.g., 
 $$\ket{\psi(t)} = U(t,t_2)U(t_2,t_0)\ket{\psi(t_0)}$$
 such that 
-$$ \begin{align}
-U(t,t_0) = U(t,t_2)U(t_2,t_0)
-\end{align}$$
+$$U(t,t_0) = U(t,t_2)U(t_2,t_0).$$
 We can simplify this a bit. What if we choose $t_2$ to be the midpoint between $t$ and $t_0$, $t_2 = (t-t_0)/2$?
-$$\begin{align}
-U(t,t_0) &= U(t,t_2)U(t_2,t_0) = e^{\frac{-i}{\hbar}\hat{H}(t-t_2)}e^{\frac{-i}{\hbar}\hat{H} (t_2-t_0)}  \\
- &= e^{\frac{-i}{\hbar}\hat{H}(t-t_2)}e^{\frac{-i}{\hbar}\hat{H} (t_2-t_0)}  \\
- &= \left(e^{\frac{-i}{\hbar}\hat{H} (t-t_0)/2} \right)^2 \\
-\end{align}$$
+$$\begin{aligned}
+U(t,t_0) &= U(t,t_2)U(t_2,t_0) = e^{\frac{-i}{\hbar}\hat{H}(t-t_2)}e^{\frac{-i}{\hbar}\hat{H} (t_2-t_0)}  \\\\
+ &= e^{\frac{-i}{\hbar}\hat{H}(t-t_2)}e^{\frac{-i}{\hbar}\hat{H} (t_2-t_0)}  \\\\
+ &= \left(e^{\frac{-i}{\hbar}\hat{H} (t-t_0)/2} \right)^2 \\\\
+\end{aligned}$$
 We can generalize this,
-$$ \begin{align}
-U(t,t_0) &= \left(e^{\frac{-i}{\hbar}\hat{H} (t-t_0)/N} \right)^N \\
-\end{align}$$
+$$ \begin{aligned}
+U(t,t_0) &= \left(e^{\frac{-i}{\hbar}\hat{H} (t-t_0)/N} \right)^N \\\\
+\end{aligned}$$
 ### Time dependent case
 
 The more general (and complicated) case where $\hat{H}$ is time-dependent cannot be written down in such a simple form. However, we can develop an arbitrarily accurate approximation to the solution by using the result above. 
