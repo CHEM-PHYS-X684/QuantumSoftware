@@ -4,9 +4,7 @@
 > $$i\hbar\frac{d}{dt}\ket{\psi(t)} = \hat{H}(t)\ket{\psi(t)},$$
 
 It is often helpful  at this point to introduce what we call the Unitary Time Evolution Operator, $\hat{U}(t,t_0)$. The TEO is just an operator that transforms (or "evolves") our system from some initial time, $t_0$, to a final time, $t$. For instance,
-$$
-\ket{\psi(t)} = \hat{U}(t,t_0)\ket{\psi(t_0)}. 
-$$
+$$\ket{\psi(t)} = \hat{U}(t,t_0)\ket{\psi(t_0)}.$$
 At this point, we don't yet care about the actual form of the operator, just that it must be `unitary`. The reason for it's unitarity is simple to see. As postulate 1 state, the coefficients of the wavefunction are the probabilities of observing a specific state. Because all probabilities must add to 1, the norm of the wavefunction must remain normalized. This is true for both $t_0$ and $t$, and for all times in between. The property that a matrix applied to a vector preserves its norm is exactly the property of unitarity. As such, the only restriction we impose on the TEO is that it must be unitary.
 
 Substituting this into the Schrodinger equation gives, 
