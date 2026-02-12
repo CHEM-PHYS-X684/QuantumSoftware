@@ -18,19 +18,15 @@ This is a useful (yet equivalent) form of the time dependent Schrodinger equatio
 First let us start with the simplest case, that where $\hat{H}(t) = \hat{H} \neq f(t)$. This is just a statement that the Hamiltonian operator doesn't change in time. 
 $$\frac{d}{dt}\hat{U}(t,t_0) = -\frac{i}{\hbar}\hat{H}\hat{U}(t,t_0).$$
 For this situation, we can directly integrate the differential equation. To do so, we can recognize that when we differentiate the TEO, we get it back times the Hamiltonian. Exponential functions are known to have this property. Simple substitution shows that the following form provides a solution to the TDSE for static Hamiltonians:
-$$\begin{align}
-\hat{U}(t,t_0) = e^{\frac{-i}{\hbar}\hat{H}(t-t_0)} 
-\end{align}$$
+$$\hat{U}(t,t_0) = e^{\frac{-i}{\hbar}\hat{H}(t-t_0)}. $$
 Differentiate this to convince yourself that this is a solution to the time dependent Schrödinger equation.  Because of this simple form, we can do fancy things, like first go to $t_2$, then go to $t$, e.g., 
-$$\begin{align}
-\ket{\psi(t)} = U(t,t_2)U(t_2,t_0)\ket{\psi(t_0)}
-\end{align}$$
+$$\ket{\psi(t)} = U(t,t_2)U(t_2,t_0)\ket{\psi(t_0)}$$
 such that 
 $$ \begin{align}
 U(t,t_0) = U(t,t_2)U(t_2,t_0)
 \end{align}$$
 We can simplify this a bit. What if we choose $t_2$ to be the midpoint between $t$ and $t_0$, $t_2 = (t-t_0)/2$?
-$$ \begin{align}
+$$\begin{align}
 U(t,t_0) &= U(t,t_2)U(t_2,t_0) = e^{\frac{-i}{\hbar}\hat{H}(t-t_2)}e^{\frac{-i}{\hbar}\hat{H} (t_2-t_0)}  \\
  &= e^{\frac{-i}{\hbar}\hat{H}(t-t_2)}e^{\frac{-i}{\hbar}\hat{H} (t_2-t_0)}  \\
  &= \left(e^{\frac{-i}{\hbar}\hat{H} (t-t_0)/2} \right)^2 \\
