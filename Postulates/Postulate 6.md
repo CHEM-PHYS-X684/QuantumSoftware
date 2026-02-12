@@ -24,11 +24,14 @@ $$\ket{\psi(t)} = U(t,t_2)U(t_2,t_0)\ket{\psi(t_0)}$$
 such that 
 $$U(t,t_0) = U(t,t_2)U(t_2,t_0).$$
 We can simplify this a bit. What if we choose $t_2$ to be the midpoint between $t$ and $t_0$, $t_2 = (t-t_0)/2$?
-$$\begin{aligned}
+$$
+\begin{aligned}
 U(t,t_0) &= U(t,t_2)U(t_2,t_0) = e^{\frac{-i}{\hbar}\hat{H}(t-t_2)}e^{\frac{-i}{\hbar}\hat{H} (t_2-t_0)}  \\\\
  &= e^{\frac{-i}{\hbar}\hat{H}(t-t_2)}e^{\frac{-i}{\hbar}\hat{H} (t_2-t_0)}  \\\\
- &= \left(e^{\frac{-i}{\hbar}\hat{H} (t-t_0)/2} \right)^2 \\\\
-\end{aligned}$$
+ &= \left(e^{\frac{-i}{\hbar}\hat{H} (t-t_0)/2} \right)^2 
+\end{aligned}
+$$
+
 We can generalize this,
 $$ \begin{aligned}
 U(t,t_0) &= \left(e^{\frac{-i}{\hbar}\hat{H} (t-t_0)/N} \right)^N \\\\
